@@ -18,7 +18,7 @@ declare global {
         }
       ) => YTPlayerInstance;
     };
-    onYouTubeIframeAPIReady?: () => void;
+    onYouTubeIframeAPIReady?(): void;
   }
 }
 
